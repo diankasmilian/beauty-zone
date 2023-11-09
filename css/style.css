@@ -1,0 +1,65 @@
+:root {
+  --main-color: #011c44;
+  --secondary-color: #2b7fff;
+  --white: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+   font-style: normal;
+}
+
+.title span {
+  color: var(--secondary-color);
+}
+
+.logo {
+   display: inline-block;
+  width: 74px;
+  font-family: 'Play', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.hero-title {
+  color: var(--secondary-color);
+}
+
+.hero-button {
+  color: var(--white);
+  background-color: var(--secondary-color);
+  padding: 16px 32px;
+  border-radius: 32px;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-button:hover {
+  background-color: var(--main-color);
+}
+
+.hero-text {
+  color: hero-text;
+}

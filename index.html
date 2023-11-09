@@ -4,17 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Beauty Zone</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="#">Beauty Zone</a>
-        <ul>
-          <li><a href="#about-section">Про нас</a></li>
-          <li><a href="#why-section">Чому ми</a></li>
-          <li><a href="#proccedure-section">Наші процедури</a></li>
-          <li><a href="#contacts-section">Контакти</a></li>
+      <nav class="nav">
+        <a href="#" class="logo">Beauty Zone</a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-section">Про нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#why-section">Чому ми</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proccedure-section">Наші процедури</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacts-section">Контакти</a>
+          </li>
         </ul>
       </nav>
       <address>
@@ -27,29 +42,33 @@
     </header>
 
     <main>
-      <section>
-        <p>Косметологічна клініка</p>
-        <h1>Beauty Zone</h1>
-        <button type="button">Замовити дзвінок</button>
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+      <section class="hero-section">
+        <p class="hero-main-text">Косметологічна клініка</p>
+        <h1 class="hero-title">Beauty Zone</h1>
+        <button class="hero-button" type="button">Замовити дзвінок</button>
+        <p class="hero-text">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
       <section id="about-section">
-        <h2>Перевтілюйтесь в beauty zone!</h2>
-        <p>
+        <h2 class="about-title title">
+          Перевтілюйтесь в <span>Beauty Zone!</span>
+        </h2>
+        <p class="about-text">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p>
+        <p class="about-text">
           B <span>Beauty Zone</span> ми гарантуємо найвищі стандарти якості та
           приємний сервіс. Наші косметологічні процедури та препарати допоможуть
           вам підтримувати свою красу та молодість. З нами краса назавжди!
         </p>
       </section>
       <section id="why-section">
-        <h2>Чому люди обирають нас</h2>
-        <ul>
-          <li>
-            <p>
+        <h2 class="title">Чому люди <span>обирають нас</span></h2>
+        <ul class="why-list">
+          <li class="why-item">
+            <p class="why-text">
               Всі наші косметологи мають вищу медичну освіту та стаж роботи від
               5 років
             </p>
@@ -69,21 +88,21 @@
         </ul>
       </section>
       <section id="proccedure-section">
-        <h2>Наші процедури</h2>
+        <h2 class="title">Наші <span>процедури</span></h2>
         <ul>
           <li>
-              <img src="./img/proccedure1.jpg" alt="маска"/>
+            <img src="./img/proccedure1.jpg" alt="маска" />
           </li>
           <li>
-              <img src="./img/proccedure2.jpg" alt="ін'єкції"/>
+            <img src="./img/proccedure2.jpg" alt="ін'єкції" />
           </li>
           <li>
-              <img src="./img/proccedure3.jpg" alt="очищення"/>
+            <img src="./img/proccedure3.jpg" alt="очищення" />
           </li>
         </ul>
       </section>
       <section id="contacts-section">
-        <h2>Як нас знайти</h2>
+        <h2 class="title">Як нас <span>знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325734713543!2d30.515600376968283!3d50.44235657159055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699542023349!5m2!1suk!2sua"
           width="605"
@@ -96,7 +115,7 @@
     </main>
     <footer>
       <nav>
-        <a href="#">Beauty Zone</a>
+        <a class="logo" href="#">Beauty Zone</a>
         <ul>
           <li><a href="#">Про нас</a></li>
           <li><a href="#">Чому ми</a></li>
