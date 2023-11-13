@@ -14,9 +14,9 @@
     <title>Beauty Zone</title>
   </head>
   <body>
-    <header>
+    <header class="header">
+      <a href="#" class="logo">Beauty Zone</a>
       <nav class="nav">
-        <a href="#" class="logo">Beauty Zone</a>
         <ul class="nav-list">
           <li class="nav-item">
             <a class="nav-link" href="#about-section">Про нас</a>
@@ -32,16 +32,28 @@
           </li>
         </ul>
       </nav>
-      <address>
+      <address class="address">
         <ul class="address-list">
           <li class="address-item">
-            <a class='address-link' href="#"></a>
+            <a class='address-link' href="#">
+              <svg width="32" height="32">
+                <use href="./img/symbol-defs.svg#icon-phone"></use>
+              </svg>
+            </a>
           </li>
           <li class="address-item">
-            <a class='address-link' href="#"></a>
+            <a class='address-link' href="#">
+              <svg width="32" height="32">
+                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
           <li class="address-item">
-            <a class='address-link' href="#"></a>
+            <a class='address-link' href="#">
+              <svg width="32" height="32">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </address>
@@ -56,7 +68,7 @@
           Запишись та отримай безкоштовну консультацію нашого косметолога
         </p>
       </section>
-      <section id="about-section">
+      <section id="about-section" class="about-section">
         <h2 class="about-title title">
           Перевтілюйтесь в <span>Beauty Zone!</span>
         </h2>
@@ -70,7 +82,7 @@
           вам підтримувати свою красу та молодість. З нами краса назавжди!
         </p>
       </section>
-      <section id="why-section">
+      <section id="why-section" class="why-section">
         <h2 class="title">Чому люди <span>обирають нас</span></h2>
         <ul class="why-list">
           <li class="why-item">
@@ -93,7 +105,7 @@
           </li>
         </ul>
       </section>
-      <section id="proccedure-section">
+      <section id="proccedure-section" class="proccedure-section">
         <h2 class="title">Наші <span>процедури</span></h2>
         <ul class="proccedure-list">
           <li class="proccedure-item">
@@ -107,7 +119,7 @@
           </li>
         </ul>
       </section>
-      <section id="contacts-section">
+      <section id="contacts-section" class="contacts-section">
         <h2 class="title">Як нас <span>знайти</span></h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325734713543!2d30.515600376968283!3d50.44235657159055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699542023349!5m2!1suk!2sua"
@@ -119,26 +131,34 @@
         ></iframe>
       </section>
     </main>
-    <footer>
-      <nav>
-        <a class="logo" href="#">Beauty Zone</a>
-        <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+    <footer class="footer">
+      <a class="logo" href="#">Beauty Zone</a>
+      <nav class="footer-nav">
+        <ul class="footer-nav-list">
+          <li class="footer-nav-item">
+            <a class="footer-link" href="#">Про нас</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-link" href="#">Чому ми</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-link" href="#">Наші процедури</a>
+          </li>
+          <li class="footer-nav-item">
+            <a class="footer-link" href="#">Контакти</a>
+          </li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="tel:+380960000007">+ 38 (096) 000 00 07</a>
+      <address class="footer-address">
+        <ul class="footer-address-list">
+          <li class="footer-address-item">
+            <a class="footer-link" href="tel:+380960000007">+ 38 (096) 000 00 07</a>
           </li>
-          <li>
-            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+          <li class="footer-address-item">
+            <a class="footer-link" href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
           </li>
-          <li>
-            <a href="https://maps.app.goo.gl/8k8LiRJa2Az8qU1z7" target="_blank"
+          <li class="footer-address-item">
+            <a class="footer-link" href="https://maps.app.goo.gl/8k8LiRJa2Az8qU1z7" target="_blank"
               >Україна, м. Київ, вул. Тараса Шевченка 5</a
             >
           </li>
@@ -146,8 +166,8 @@
           <li><a href="#"></a></li>
           <li><a href="#"></a></li>
         </ul>
-        <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>&copy; 2022 Дані захищені</p>
+        <a class="footer-link" href="#" target="_blank">Політика конфіденційності</a>
+        <p class="footer-text">&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>
