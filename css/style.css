@@ -4,11 +4,19 @@
   --white: #fff;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: var(--main-color);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
 }
 
 ul {
@@ -21,6 +29,12 @@ a {
 
 address {
    font-style: normal;
+}
+
+.container {
+  max-width: 1239px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .title span {
