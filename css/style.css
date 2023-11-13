@@ -17,6 +17,10 @@ body {
   font-weight: 400;
   line-height: normal;
   color: var(--main-color);
+  background-image: url('../img/why-backgroung.png');
+  background-position-y: 1334px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 h1,
@@ -104,7 +108,6 @@ address {
   font-weight: 700;
 }
 
-
 .address {
   display: flex;
   align-items: center;
@@ -137,6 +140,7 @@ address {
   line-height: 0.8;
   color: var(--secondary-color);
   margin-bottom: 40px;
+  width: 529px;
 }
 
 .hero-main-text {
@@ -165,35 +169,112 @@ address {
   font-weight: 400;
   line-height: 1.5;
   color: var(--small-color);
+  width: 238px;
 }
 
 .about-section {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+  position: relative;
   padding-top: 40px;
   padding-bottom: 199px;
 }
 
+.about-title {
+  max-width: 529px;
+  margin-bottom: 40px;
+}
+
 .about-text {
+  max-width: 709px;
   line-height: 1.7;
+}
+
+.about-text-margin {
+  margin-bottom: 40px;
 }
 
 .about-text span {
   font-weight: 600;
 }
 
+.photo-top {
+  position: absolute;
+  top: 0;
+  right: 268px;
+  width: 335px;
+  height: 328px;
+  border-radius: 50%;
+  background-image: url('../img/about-photo-1.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.photo-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 92px;
+  width: 335px;
+  height: 328px;
+  border-radius: 50%;
+  background-image: url('../img/about-photo-2.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.star-icon-top {
+  position: absolute;
+  top: 32px;
+  right: 74px;
+  width: 40px;
+  height: 40px;
+  fill: var(--secondary-color);
+}
+
+.star-icon-center {
+  position: absolute;
+  top: 270px;
+  right: 106px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(-22.905deg);
+  fill: var(--small-text);
+}
+
+.star-icon-bottom {
+  position: absolute;
+  top: 336px;
+  right: 395px;
+  width: 64px;
+  height: 64px;
+  fill: var(--main-color);
+}
+
 .why-section {
+  text-align: center;
   padding-top: 176px;
+  padding-bottom: 96px;
+}
+
+.why-title {
+  margin-bottom: 48px;
+}
+
+.why-list {
+  display: flex;
+  gap: 56px;
+}
+
+.why-item {
+  background-color: var(--white);
+  border-radius: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+  padding: 24px 32px;
 }
 
 .why-text {
   line-height: 1.3;
   color: var(--black);
-}
-
-.proccedure-section {
-  padding-top: 96px;
 }
 
 .contacts-section {

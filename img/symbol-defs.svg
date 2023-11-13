@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-start" viewBox="0 0 32 32">
-<path fill="#011f4a" style="fill: var(--color1, #011f4a)" d="M6.693 0l10.657 10.184 14.322-3.491-10.184 10.658 3.491 14.322-10.657-10.184-14.322 3.491 10.184-10.657-3.491-14.322z"></path>
+<path d="M6.693 0l10.657 10.184 14.322-3.491-10.184 10.658 3.491 14.322-10.657-10.184-14.322 3.491 10.184-10.657-3.491-14.322z"></path>
 </symbol>
 <symbol id="icon-arrow-right" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color2, #fff)" d="M0 16c0 8.837 7.163 16 16 16s16-7.163 16-16c0-8.837-7.163-16-16-16s-16 7.163-16 16z"></path>
