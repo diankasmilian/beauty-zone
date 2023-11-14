@@ -48,6 +48,10 @@ address {
   font-style: normal;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1239px;
   margin: 0 auto;
@@ -277,9 +281,135 @@ address {
   color: var(--black);
 }
 
+.proccedure-section {
+  text-align: center;
+}
+
+.proccedure-title {
+  margin-bottom: 48px;
+}
+
+.proccedure-content {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+.proccedure-button {
+  border: none;
+  background-color: transparent;
+}
+
+.proccedure-list {
+  display: flex;
+  gap: 16px;
+}
+
+.proccedure-item {
+  position: relative;
+  width: 344px;
+  height: 456px;
+  border-radius: 4px 120px;
+  overflow: hidden;
+}
+
+.proccedure-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(1, 28, 68, 0) 48.53%,
+    rgba(1, 28, 68, 0.73) 84.61%,
+    #011c44 101.39%
+  );
+  z-index: 1;
+}
+
+.proccedure-text {
+  position: absolute;
+  bottom: 32px;
+  right: 77px;
+  width: 152px;
+  line-height: 1.18;
+  color: var(--white);
+  z-index: 2;
+  transform: translateY(200%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.proccedure-item:hover .proccedure-text {
+  transform: translateY(0);
+}
+
 .contacts-section {
   padding-top: 96px;
   padding-bottom: 94px;
+}
+
+.contacts-title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.contacts-content {
+  display: flex;
+  gap: 32px;
+}
+
+.contacts-map {
+  border-radius: 32px;
+  border: none;
+}
+
+.contacts-form {
+  text-align: center;
+  width: 423px;
+  padding: 48px 50px;
+  background-color: var(--main-color);
+  background-image: url('../img/form-background.png');
+  background-repeat: no-repeat;
+  border-radius: 32px;
+}
+
+.contacts-form-title {
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 32px;
+}
+
+.contacts-form-title span {
+  color: var(--secondary-color);
+}
+
+.form-contant {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contacts-input {
+  padding: 18px 33px;
+  border-radius: 32px;
+  border: 2px solid var(--small-text);
+  background-color: transparent;
+}
+
+.contacts-input::placeholder {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.contacts-form-button {
+  padding: 16px 32px;
+  background-color: var(--secondary-color);
+  border-radius: 32px;
+  color: var(--white);
+  border: none;
 }
 
 .footer {
